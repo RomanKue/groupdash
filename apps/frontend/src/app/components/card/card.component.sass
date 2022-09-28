@@ -1,0 +1,71 @@
+article
+  height: 6em
+  margin: 0
+  padding: .5em 1em
+  border-radius: .2em
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  position: relative
+  overflow: hidden
+
+  img
+    display: block
+    height: 80%
+    cursor: pointer
+
+  .content
+    margin-left: 1em
+    height: 80%
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+
+    h4
+      margin: 0
+      margin-bottom: .5em
+      cursor: pointer
+
+    p
+      margin: 0
+      cursor: pointer
+      font-size: .8em
+
+  .action
+    position: absolute
+    top: .5em
+    right: .5em
+
+    svg
+      fill: #6e6e6e
+
+      &:hover
+        fill: #2a2a2a
+
+  .toggle
+    position: absolute
+    bottom: -.6em
+    right: 0em
+    padding: .2em
+    height: 1em
+    color: #eee
+    background: #555
+    border-top-left-radius: .2em
+    border-bottom-left-radius: .2em
+    cursor: pointer
+
+  .tag
+    position: absolute
+    bottom: -.6em
+    right: 0em
+    padding: .2em .4em
+    color: #eee
+    background: #555
+    border-top-left-radius: .2em
+    border-bottom-left-radius: .2em
+    cursor: pointer
+
